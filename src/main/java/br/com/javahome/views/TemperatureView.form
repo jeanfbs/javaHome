@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="br.com.javahome.views.TemperatureView">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+    <constraints>
+      <xy x="20" y="20" width="300" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <maximumSize width="290" height="32767"/>
+      <minimumSize width="290" height="400"/>
+      <preferredSize width="290" height="290"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f02c8" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-16742905"/>
+          <horizontalAlignment value="0"/>
+          <preferredSize width="290" height="30"/>
+          <text value="Temperatura"/>
+        </properties>
+      </component>
+      <grid id="713a1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <minimumSize width="290" height="375"/>
+          <opaque value="false"/>
+          <preferredSize width="290" height="155"/>
+        </properties>
+        <border type="line" title="Informações Gerais">
+          <title-color color="-16751353"/>
+          <color color="-16751353"/>
+        </border>
+        <children>
+          <grid id="c66eb" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="10">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-12828863"/>
+              <foreground color="-16777216"/>
+              <minimumSize width="-1" height="-1"/>
+              <opaque value="false"/>
+              <preferredSize width="105" height="120"/>
+              <requestFocusEnabled value="false"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="2b0df" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                  <font style="1"/>
+                  <foreground color="-16751353"/>
+                  <text value="ID:"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="b843b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <foreground color="-16751353"/>
+                  <text value="Nome:"/>
+                </properties>
+              </component>
+              <component id="55ac8" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="12"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <foreground color="-16751353"/>
+                  <horizontalAlignment value="4"/>
+                  <text value="Temp. Atual:"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+              <component id="fef33" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <foreground color="-16751353"/>
+                  <text value="Umid. Relativa:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="bc6b" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="true" same-size-vertically="false" hgap="5" vgap="0">
+            <margin top="0" left="5" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-12828863"/>
+              <foreground color="-16777216"/>
+              <minimumSize width="145" height="68"/>
+              <opaque value="false"/>
+              <preferredSize width="155" height="120"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="25f1a" class="javax.swing.JLabel" binding="name">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font/>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="e703f" class="javax.swing.JLabel" binding="temperature">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font/>
+                  <foreground color="-16751353"/>
+                  <horizontalTextPosition value="11"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="3c3b8" class="javax.swing.JLabel" binding="relativeHumidity">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="d42f2" class="javax.swing.JLabel" binding="id">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="ed7bd" binding="chart" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <minimumSize width="190" height="72"/>
+          <opaque value="false"/>
+          <preferredSize width="290" height="160"/>
+        </properties>
+        <border type="line" title="Histórico de Temperatura">
+          <title-color color="-16751353"/>
+          <color color="-16751353"/>
+        </border>
+        <children>
+          <component id="7497a" class="org.jfree.chart.ChartPanel" binding="chartPanel1" custom-create="true" default-binding="true">
+            <constraints/>
+            <properties>
+              <preferredSize width="280" height="129"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

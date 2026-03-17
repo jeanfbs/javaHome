@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="br.com.javahome.views.RoomDetailView">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+    <constraints>
+      <xy x="20" y="20" width="534" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <foreground color="-3355444"/>
+      <minimumSize width="290" height="99"/>
+      <preferredSize width="-1" height="-1"/>
+      <requestFocusEnabled value="false"/>
+    </properties>
+    <border type="none">
+      <color color="-16751353"/>
+    </border>
+    <children>
+      <grid id="4df4b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <minimumSize width="290" height="175"/>
+          <opaque value="false"/>
+          <preferredSize width="290" height="145"/>
+        </properties>
+        <border type="line" title="Informações">
+          <title-color color="-16751353"/>
+          <color color="-16751353"/>
+        </border>
+        <children>
+          <grid id="eb04" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-12828863"/>
+              <foreground color="-16777216"/>
+              <minimumSize width="-1" height="-1"/>
+              <opaque value="false"/>
+              <preferredSize width="115" height="115"/>
+              <requestFocusEnabled value="false"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="2611" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                  <font/>
+                  <foreground color="-16751353"/>
+                  <text value="Nome:"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="5f8d5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font/>
+                  <foreground color="-16751353"/>
+                  <text value="Área Total:"/>
+                </properties>
+              </component>
+              <component id="e8350" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="12"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font/>
+                  <foreground color="-16751353"/>
+                  <text value="Qtd. Tomadas:"/>
+                </properties>
+              </component>
+              <component id="99d00" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16751353"/>
+                  <text value="Qtd. Interruptores:"/>
+                </properties>
+              </component>
+              <component id="4a9f2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16751353"/>
+                  <text value="Tamanho Porta:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="81148" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="1">
+            <margin top="0" left="5" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-12828863"/>
+              <foreground color="-16777216"/>
+              <minimumSize width="145" height="68"/>
+              <opaque value="false"/>
+              <preferredSize width="145" height="115"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="4e2c5" class="javax.swing.JLabel" binding="name">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                  <font/>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="99367" class="javax.swing.JLabel" binding="totalArea">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font/>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="8ec88" class="javax.swing.JLabel" binding="outletAmount">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="12"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font/>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="a386c" class="javax.swing.JLabel" binding="lightSwitchAmount">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="e7a1c" class="javax.swing.JLabel" binding="doorSize">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="6190f" layout-manager="GridBagLayout">
+        <constraints/>
+        <properties>
+          <minimumSize width="225" height="200"/>
+          <opaque value="false"/>
+          <preferredSize width="290" height="200"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="38d27" class="javax.swing.JButton" binding="lightBtn">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.45" weighty="0.45"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font style="1"/>
+              <foreground color="-16751353"/>
+              <hideActionText value="true"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="icons/Light/idea.png"/>
+              <iconTextGap value="4"/>
+              <inheritsPopupMenu value="false"/>
+              <label value="Iluminação"/>
+              <maximumSize width="90" height="66"/>
+              <minimumSize width="90" height="66"/>
+              <opaque value="false"/>
+              <preferredSize width="90" height="45"/>
+              <requestFocusEnabled value="true"/>
+              <rolloverIcon value="icons/light/idea_hover.png"/>
+              <selected value="true"/>
+              <text value="Iluminação"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <component id="8a243" class="javax.swing.JButton" binding="eletricalBtn">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.55" weighty="0.55" ipadx="5"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font style="1"/>
+              <foreground color="-16751353"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="icons/Eletric/storm.png"/>
+              <rolloverEnabled value="false"/>
+              <rolloverIcon value="icons/Eletric/storm_hover.png"/>
+              <text value="Elétrica"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <component id="290ff" class="javax.swing.JButton" binding="tempBtn">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.45" weighty="0.45"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font style="1"/>
+              <foreground color="-16751353"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="icons/Temperature/hot.png"/>
+              <rolloverEnabled value="true"/>
+              <rolloverIcon value="icons/Temperature/hot_hover.png"/>
+              <text value="Temperatura"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <component id="c44e1" class="javax.swing.JButton" binding="securityBtn">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.55" weighty="0.55" ipadx="5"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font style="1"/>
+              <foreground color="-16751353"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="icons/Security/security.png"/>
+              <rolloverEnabled value="true"/>
+              <rolloverIcon value="icons/Security/security_hover.png"/>
+              <text value="Segurança"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

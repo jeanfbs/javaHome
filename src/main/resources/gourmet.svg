@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305 405" xmlns:bx="https://boxy-svg.com">
+    <rect x="1" y="1" width="300" height="400" style="stroke: rgb(0, 101, 7);" id=""></rect>
+
+    <g id="gourmet" transform="matrix(1, 0, 0, 1, -20, 140)">
+        <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" stroke="none" d="M 36 9 L 303 9 L 303 67 L 36 67 "/>
+        <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase; white-space: pre;" x="135" y="40">Área Gourmet</text>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 36 67 L 36 9"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 303 67 L 303 9"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(5, 103, 0);" d="M 36 67 L 156 67"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(5, 103, 0);" d="M 36 9 L 156 9"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 303 9 L 182 9"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 268 67 L 182 67"></path>
+
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 296 67 L 303 67"></path>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305 405" xmlns:bx="https://boxy-svg.com">
+    <rect x="1" y="1" width="300" height="400" style="stroke: rgb(0, 101, 7);" id=""></rect>
+
+    <g id="bathroom" transform="matrix(2, 0, 0, 2, -20, -150)">
+        <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" stroke="none" d="M 36 158 L 137 158 L 137 194 L 36 194 Z"/>
+        <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase; white-space: pre;" x="65" y="180">Banheiro</text>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 36 158 L 137 158"/>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 137 180 L 137 158"/>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 36 194 L 36 158"/>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 36 194 L 137 194"/>
+    </g>
+</svg>

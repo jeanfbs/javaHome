@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305 405" xmlns:bx="https://boxy-svg.com">
+    <rect x="1" y="1" width="300" height="400" style="stroke: rgb(0, 101, 7);" id=""></rect>
+
+    <g id="kitchen" transform="matrix(2, 0, 0, 2, -274, -35)">
+        <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" stroke="none" d="M 156 67 L 268 67 L 268 163 L 156 163 Z"/>
+        <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase;" x="195" y="115">Cozinha</text>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 267 67 L 182 67"/>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 156 67 L 156 140"/>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 268 165 L 268 67"/>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 156 163 L 210 163"/>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 245 163 L 268 163"/>
+    </g>
+</svg>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="br.com.javahome.views.LightView">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <minimumSize width="290" height="290"/>
+      <preferredSize width="290" height="290"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6ea04" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-16742905"/>
+          <horizontalAlignment value="0"/>
+          <preferredSize width="290" height="30"/>
+          <text value="Iluminação"/>
+        </properties>
+      </component>
+      <grid id="bb1a9" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <minimumSize width="290" height="375"/>
+          <opaque value="false"/>
+          <preferredSize width="290" height="160"/>
+        </properties>
+        <border type="line" title="Informações Gerais">
+          <title-color color="-16751353"/>
+          <color color="-16751353"/>
+        </border>
+        <children>
+          <grid id="f6f7f" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-12828863"/>
+              <foreground color="-16777216"/>
+              <minimumSize width="-1" height="-1"/>
+              <opaque value="false"/>
+              <preferredSize width="105" height="120"/>
+              <requestFocusEnabled value="false"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="270ab" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                  <font style="1"/>
+                  <foreground color="-16751353"/>
+                  <text value="ID:"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="730d8" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <foreground color="-16751353"/>
+                  <text value="Nome:"/>
+                </properties>
+              </component>
+              <component id="46392" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="12"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <foreground color="-16751353"/>
+                  <text value="Brilho:"/>
+                </properties>
+              </component>
+              <component id="254b2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <foreground color="-16751353"/>
+                  <text value="Situação:"/>
+                </properties>
+              </component>
+              <component id="1d1c7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <foreground color="-16751353"/>
+                  <text value="Instalada em:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="5b90e" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="1">
+            <margin top="0" left="5" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-12828863"/>
+              <foreground color="-16777216"/>
+              <minimumSize width="145" height="68"/>
+              <opaque value="false"/>
+              <preferredSize width="165" height="120"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="8094e" class="javax.swing.JLabel" binding="id">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                  <font/>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="77c3a" class="javax.swing.JLabel" binding="name">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font/>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="5b6fb" class="javax.swing.JLabel" binding="brightness">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="12"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font/>
+                  <foreground color="-16751353"/>
+                  <horizontalTextPosition value="11"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="51f16" class="javax.swing.JLabel" binding="status">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="ed1d" class="javax.swing.JLabel" binding="lastChanged">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16751353"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <tabbedpane id="c11c8" binding="tabbedPane1" custom-create="true" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <doubleBuffered value="false"/>
+          <enabled value="true"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <focusable value="true"/>
+          <font style="1"/>
+          <foreground color="-16751353"/>
+          <inheritsPopupMenu value="false"/>
+          <opaque value="false"/>
+          <preferredSize width="290" height="160"/>
+          <tabPlacement value="1"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none" title-justification="2" title-position="1">
+          <color color="-16751353"/>
+        </border>
+        <children>
+          <grid id="91ad5" binding="form" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Controles"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <opaque value="false"/>
+              <preferredSize width="279" height="125"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="c0e62" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="true"/>
+                  <background color="-12828863"/>
+                  <foreground color="-16777216"/>
+                  <minimumSize width="-1" height="-1"/>
+                  <opaque value="false"/>
+                  <preferredSize width="100" height="120"/>
+                  <requestFocusEnabled value="false"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+                <border type="none"/>
+                <children>
+                  <component id="beb0d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12828863"/>
+                      <font style="1"/>
+                      <foreground color="-16751353"/>
+                      <text value="Luz"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <component id="9bb17" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="12"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-16751353"/>
+                      <text value="Brilho:"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="366e1" layout-manager="FlowLayout" hgap="5" vgap="18" flow-align="0">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <background color="-12501184"/>
+                  <foreground color="-16777216"/>
+                  <minimumSize width="145" height="68"/>
+                  <opaque value="false"/>
+                  <preferredSize width="165" height="120"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="true"/>
+                </clientProperties>
+                <border type="none"/>
+                <children>
+                  <component id="ae529" class="javax.swing.JToggleButton" binding="toggleButton1" custom-create="true">
+                    <constraints/>
+                    <properties>
+                      <enabled value="false"/>
+                      <preferredSize width="75" height="30"/>
+                    </properties>
+                  </component>
+                  <grid id="eedde" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints/>
+                    <properties>
+                      <opaque value="false"/>
+                      <preferredSize width="160" height="1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <component id="50eb1" class="javax.swing.JSlider" binding="slider1" custom-create="true" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <alignmentX value="0.5"/>
+                      <alignmentY value="0.5"/>
+                      <autoscrolls value="false"/>
+                      <enabled value="false"/>
+                      <preferredSize width="160" height="24"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="ff7b4" binding="chart" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <tabbedpane title="Estatística"/>
+            </constraints>
+            <properties>
+              <minimumSize width="179" height="72"/>
+              <opaque value="false"/>
+              <preferredSize width="279" height="125"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8dcb4" class="org.jfree.chart.ChartPanel" binding="chartPanel1" custom-create="true" default-binding="true">
+                <constraints/>
+                <properties>
+                  <preferredSize width="285" height="120"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

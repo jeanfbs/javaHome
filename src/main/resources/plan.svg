@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" xmlns:bx="https://boxy-svg.com">
+    <rect x="1" y="1" width="300" height="400" style="stroke: rgb(0, 101, 7); stroke-width: 3;" id=""></rect>
+    <g id="kitchen" transform="matrix(1, 0, 0, 1, -2.596087, 23.643768)">
+        <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" stroke="none" d="M 156 67 L 268 67 L 268 163 L 156 163 Z"/>
+        <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase;" x="195" y="115">Cozinha</text>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 267 67 L 182 67"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 156 67 L 156 140"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 268 165 L 268 67"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 156 163 L 210 163"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 245 163 L 268 163"></path>
+    </g>
+    <g id="hall" transform="matrix(1, 0, 0, 1, -2.596087, 23.643768)">
+        <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase;" x="202" y="215">Sala</text>
+        <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" fill-rule="evenodd" stroke="none" d="M 156 163 L 268 163 L 268 258 L 156 258 Z M 210 163 L 245 163 Z"/>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 156 163 L 210 163"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 267 258 L 182 258"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 245 163 L 268 163"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 156 258 L 156 163"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 268 258 L 268 163"></path>
+    </g>
+    <g id="workRoom" transform="matrix(1, 0, 0, 1, -2.596087, 23.643768)">
+        <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase;" x="68" y="285">Escritório</text>
+        <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" stroke="none" d="M 156 245 L 156 305 L 36 305 L 36 258 L 137 258 L 137 245 Z"/>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 156 245 L 152 245"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 137 258 L 137 245"></path>
+
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 36 305 L 156 305"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 36 258 L 36 305"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 156 245 L 156 305"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 36 258 L 137 258"></path>
+    </g>
+    <g id="visitRoom" transform="matrix(1, 0, 0, 1, -2.596087, 23.643768)">
+        <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" stroke="none" d="M 36 194 L 137 194 L 137 258 L 36 258 Z"/>
+        <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase;" x="56" y="229">Quarto Visita</text>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 36 194 L 137 194"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 137 258 L 137 213"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 36 258 L 36 194"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 36 258 L 137 258"></path>
+    </g>
+    <g id="bathroom" transform="matrix(1, 0, 0, 1, -2.596087, 23.643768)">
+        <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" stroke="none" d="M 36 158 L 137 158 L 137 194 L 36 194 Z"/>
+        <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase; white-space: pre;" x="65" y="180">Banheiro</text>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3" d="M 36 158 L 137 158"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 137 180 L 137 158"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 36 194 L 36 158"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 36 194 L 137 194"></path>
+    </g>
+    <g id="suiteBathroom" transform="matrix(1, 0, 0, 1, -2.596087, 23.643768)">
+        <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" stroke="none" d="M 36 132 L 137 132 L 137 158 L 36 158 Z"/>
+        <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase; white-space: pre;" x="55" y="148">Banheiro Suite</text>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 52 132 L 137 132"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 137 158 L 137 132"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 36 158 L 36 133"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 36 158 L 137 158"></path>
+    </g>
+    <g id="room" transform="matrix(1, 0, 0, 1, -2.596087, 23.643768)">
+        <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" stroke="none" d="M 36 67 L 156 67 L 156 132 L 137 132 L 137 134 L 36 134 Z"/>
+        <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase; white-space: pre;" x="75" y="105">Quarto</text>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 36 134 L 36 67"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(5, 103, 0);" d="M 36 67 L 156 67"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 52 132 L 137 132"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 156 67 L 156 140"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 137 140 L 137 132"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 156 132 L 152 132"></path>
+    </g>
+    <g id="visits" transform="matrix(1, 0, 0, 1, -2.596087, 23.643768)">
+        <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" stroke="none" d="M 36 9 L 303 9 L 303 67 L 36 67 "/>
+        <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase; white-space: pre;" x="135" y="40">Área Gourmet</text>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 36 67 L 36 9"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 303 67 L 303 9"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(5, 103, 0);" d="M 36 67 L 156 67"></path>
+        <path style="fill: none; stroke-width: 3; stroke: rgb(5, 103, 0);" d="M 36 9 L 156 9"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 303 9 L 182 9"></path>
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 268 67 L 182 67"></path>
+
+        <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 296 67 L 303 67"></path>
+    </g>
+</svg>
