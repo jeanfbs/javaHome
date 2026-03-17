@@ -43,7 +43,7 @@ public final class Bootstrap {
         Runnable roomTask = manager.getBean(RoomCollectorData.class);
         if(executorService != null){
             executorService.submit(homeTask);
-            executorService.scheduleAtFixedRate(roomTask, 0, 10, TimeUnit.SECONDS);
+            executorService.scheduleAtFixedRate(roomTask, 0, 5, TimeUnit.SECONDS);
         }
     }
 

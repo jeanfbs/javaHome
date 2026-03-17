@@ -6,6 +6,8 @@ import br.com.javahome.model.Device;
 import br.com.javahome.model.RoomData;
 import br.com.javahome.ui.ScrollPaneUI;
 import br.com.javahome.ui.TableUI;
+import com.intellij.uiDesigner.core.GridConstraints;
+import com.intellij.uiDesigner.core.GridLayoutManager;
 
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
@@ -51,16 +53,7 @@ public class SecurityView {
         }).toList();
         DefaultTableModel model = new DefaultTableModel(list.toArray(new Object[0][]), columns);
         table1.setModel(model);
-
-//        Random random = new Random();
-//        security.forEach(it -> devices.add(new Object[]{it.id(), it.name(), it.status()}));
-//        outlets.clear();
-//        outlets.addAll(data.outlets());
-//        SwingUtilities.invokeLater(() -> {
-//            sensors.removeAllItems();
-//            outlets.forEach(it -> sensors.addItem(it.id()));
-//        });
-
+        devices.stream().findFirst().ifPresent(this::updateLabels);
     }
 
     private String getStatus(Device device) {
@@ -98,7 +91,7 @@ public class SecurityView {
         rootPanel.add(panel1);
         panel1.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(new Color(-16751353)), "Dados do Dispositivo", TitledBorder.DEFAULT_JUSTIFICATION, TitledBorder.DEFAULT_POSITION, null, new Color(-16751353)));
         final JPanel panel2 = new JPanel();
-        panel2.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(4, 1, new Insets(0, 0, 0, 0), 5, 10));
+        panel2.setLayout(new GridLayoutManager(4, 1, new Insets(0, 0, 0, 0), 5, 10));
         panel2.setAutoscrolls(true);
         panel2.setBackground(new Color(-12828863));
         panel2.setForeground(new Color(-16777216));
@@ -115,13 +108,13 @@ public class SecurityView {
         label2.setForeground(new Color(-16751353));
         label2.setText("ID:");
         label2.setVisible(true);
-        panel2.add(label2, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_EAST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        panel2.add(label2, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_EAST, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_FIXED, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         final JLabel label3 = new JLabel();
         Font label3Font = this.$$$getFont$$$(null, Font.BOLD, -1, label3.getFont());
         if (label3Font != null) label3.setFont(label3Font);
         label3.setForeground(new Color(-16751353));
         label3.setText("Nome:");
-        panel2.add(label3, new com.intellij.uiDesigner.core.GridConstraints(1, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_EAST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        panel2.add(label3, new GridConstraints(1, 0, 1, 1, GridConstraints.ANCHOR_EAST, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_FIXED, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         final JLabel label4 = new JLabel();
         Font label4Font = this.$$$getFont$$$(null, Font.BOLD, -1, label4.getFont());
         if (label4Font != null) label4.setFont(label4Font);
@@ -129,15 +122,15 @@ public class SecurityView {
         label4.setHorizontalAlignment(4);
         label4.setText("Tipo");
         label4.setVerticalTextPosition(0);
-        panel2.add(label4, new com.intellij.uiDesigner.core.GridConstraints(2, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_EAST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(-1, 12), null, 0, false));
+        panel2.add(label4, new GridConstraints(2, 0, 1, 1, GridConstraints.ANCHOR_EAST, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_FIXED, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(-1, 12), null, 0, false));
         final JLabel label5 = new JLabel();
         Font label5Font = this.$$$getFont$$$(null, Font.BOLD, -1, label5.getFont());
         if (label5Font != null) label5.setFont(label5Font);
         label5.setForeground(new Color(-16751353));
         label5.setText("Situação");
-        panel2.add(label5, new com.intellij.uiDesigner.core.GridConstraints(3, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_EAST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        panel2.add(label5, new GridConstraints(3, 0, 1, 1, GridConstraints.ANCHOR_EAST, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_FIXED, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         final JPanel panel3 = new JPanel();
-        panel3.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(4, 1, new Insets(0, 5, 0, 0), 5, 4));
+        panel3.setLayout(new GridLayoutManager(4, 1, new Insets(0, 5, 0, 0), 5, 4));
         panel3.setAutoscrolls(false);
         panel3.setBackground(new Color(-12828863));
         panel3.setForeground(new Color(-16777216));
@@ -151,22 +144,22 @@ public class SecurityView {
         if (nameFont != null) name.setFont(nameFont);
         name.setForeground(new Color(-16751353));
         name.setText("-");
-        panel3.add(name, new com.intellij.uiDesigner.core.GridConstraints(1, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        panel3.add(name, new GridConstraints(1, 0, 1, 1, GridConstraints.ANCHOR_WEST, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_FIXED, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         type = new JLabel();
         Font typeFont = this.$$$getFont$$$(null, -1, -1, type.getFont());
         if (typeFont != null) type.setFont(typeFont);
         type.setForeground(new Color(-16751353));
         type.setHorizontalTextPosition(11);
         type.setText("-");
-        panel3.add(type, new com.intellij.uiDesigner.core.GridConstraints(2, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        panel3.add(type, new GridConstraints(2, 0, 1, 1, GridConstraints.ANCHOR_WEST, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_FIXED, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         status = new JLabel();
         status.setForeground(new Color(-16751353));
         status.setText("-");
-        panel3.add(status, new com.intellij.uiDesigner.core.GridConstraints(3, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        panel3.add(status, new GridConstraints(3, 0, 1, 1, GridConstraints.ANCHOR_WEST, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_FIXED, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         id = new JLabel();
         id.setForeground(new Color(-16751353));
         id.setText("-");
-        panel3.add(id, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        panel3.add(id, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_WEST, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_FIXED, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         scrollPane1.setOpaque(false);
         scrollPane1.setPreferredSize(new Dimension(290, 160));
         rootPanel.add(scrollPane1);
@@ -212,11 +205,15 @@ public class SecurityView {
             int selectedRow = table1.getSelectedRow();
             if (e.getValueIsAdjusting() && selectedRow != -1) {
                 Device device = devices.get(selectedRow);
-                id.setText(device.id());
-                name.setText(device.name());
-                type.setText(ApplicationContext.getProperty(device.type().property()));
-                status.setText(getStatus(device).toUpperCase());
+                updateLabels(device);
             }
         });
+    }
+
+    private void updateLabels(Device device) {
+        id.setText(device.id());
+        name.setText(device.name());
+        type.setText(ApplicationContext.getProperty(device.type().property()));
+        status.setText(getStatus(device).toUpperCase());
     }
 }

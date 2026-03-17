@@ -221,7 +221,7 @@
               <foreground color="-16751353"/>
               <horizontalTextPosition value="0"/>
               <icon value="icons/Eletric/storm.png"/>
-              <rolloverEnabled value="false"/>
+              <rolloverEnabled value="true"/>
               <rolloverIcon value="icons/Eletric/storm_hover.png"/>
               <text value="Elétrica"/>
               <verticalAlignment value="0"/>
