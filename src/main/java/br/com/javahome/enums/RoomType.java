@@ -6,7 +6,7 @@ public enum RoomType {
     HALL("hall"),
     WORK_ROOM("workRoom"),
     VISIT_ROOM("visitRoom"),
-    BATHROOM("bathRoom"),
+    BATHROOM("bathroom"),
     SUITE_BATHROOM("suiteBathroom"),
     ROOM("room"),
     GOURMET("gourmet")
