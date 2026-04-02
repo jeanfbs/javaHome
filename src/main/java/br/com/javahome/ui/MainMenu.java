@@ -43,7 +43,7 @@ public class MainMenu extends JPanel {
 
     private void initLayout() {
         setPreferredSize(new Dimension(0, MENU_HEIGHT));
-        setBorder(BorderFactory.createEmptyBorder(0,7,7,7));
+        setBorder(BorderFactory.createEmptyBorder(3,7,3,7));
         setBackground(BLACK);
         setLayout(new BorderLayout());
     }

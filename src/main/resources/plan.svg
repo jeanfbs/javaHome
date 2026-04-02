@@ -63,7 +63,7 @@
         <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 137 140 L 137 132"></path>
         <path style="fill: none; stroke-width: 3; stroke: rgb(0, 101, 7);" d="M 156 132 L 152 132"></path>
     </g>
-    <g id="visits" transform="matrix(1, 0, 0, 1, -2.596087, 23.643768)">
+    <g id="gourmet" transform="matrix(1, 0, 0, 1, -2.596087, 23.643768)">
         <path id="hitbox" fill="rgb(0,101,7)" fill-opacity="0.2" stroke="none" d="M 36 9 L 303 9 L 303 67 L 36 67 "/>
         <text style="fill: rgb(0, 101, 7); font-family: Arial, sans-serif; font-size: 8px; text-transform: uppercase; white-space: pre;" x="135" y="40">Área Gourmet</text>
         <path style="fill: none; stroke: rgb(0, 101, 7); stroke-width: 3;" d="M 36 67 L 36 9"></path>

@@ -12,7 +12,7 @@ public enum RoomType {
     GOURMET("gourmet")
     ;
 
-    private String key;
+    private final String key;
 
     RoomType(String key) {
         this.key = key;

@@ -32,7 +32,7 @@ public class Application extends JFrame{
         Bootstrap bootstrap = new Bootstrap();
         var manager = bootstrap.initializeBeans();
         bootstrap.runInitializeMethods();
-        frameInitialize();
+
 
         log.debug("Creating left and right panels.");
         leftPanel =  manager.getBean("leftPanel");
@@ -48,6 +48,7 @@ public class Application extends JFrame{
         content.add(mainMenu, BorderLayout.SOUTH);
         add(leftPanel);
         add(content);
+        frameInitialize();
 
         Runtime.getRuntime().addShutdownHook(new Thread(bootstrap::gracefullShutdown));
     }
